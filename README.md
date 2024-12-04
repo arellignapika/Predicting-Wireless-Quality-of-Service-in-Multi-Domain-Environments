@@ -23,11 +23,11 @@ This project focuses on predicting wireless Quality of Service (QoS) metrics suc
 - **Scaling Features**: Numerical features were scaled using `StandardScaler` and `MinMaxScaler` to normalize the data for better model performance.
 
 #### Visualization:
-- **Feature Distribution Before Scaling**:
-  ![Feature Distribution Before Scaling](images/missingvalues_train.png)
+- **missing values for training set**:
+  ![missing values for training set](images/missingvalues_train.png)
 
-- **Feature Distribution After Scaling**:
-  ![Feature Distribution After Scaling](images/missingvalues_test.png)
+- **missing values for testing set**:
+  ![missing values for testing set](images/missingvalue_test.png)
 
 ---
 
@@ -39,10 +39,10 @@ This project focuses on predicting wireless Quality of Service (QoS) metrics suc
 
 #### Visualizations:
 - **Correlation Heatmaps**:
-  ![Correlation Heatmap](images/ot1.png)
-   ![Correlation Heatmap](images/ot2.png)
-   ![Correlation Heatmap](images/ot3.png)
-   ![Correlation Heatmap](images/ot4.png)
+- ![Correlation Heatmap](images/ot1.png)
+- ![Correlation Heatmap](images/ot2.png)
+- ![Correlation Heatmap](images/ot3.png)
+- ![Correlation Heatmap](images/ot4.png)
   
 
 ---
