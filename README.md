@@ -95,11 +95,11 @@ This project demonstrates the effectiveness of CatBoost Regressor in predicting 
 ---
 
 ## Future Work
-
+- Integrate it with other emerging technologies, such as edge computing, cloud platforms, and advanced vehicular systems/IOT. This integration can help optimize real-time decision-making and support smart city initiatives. Additionally, we can explore extending the solution to include predictive analytics for uplink throughput and other network parameters, paving the way for more comprehensive QoS management frameworks in multi-domain environments.
 
 ---
 
 ## Acknowledgements
-Special thanks to the creators of the Berlin V2X dataset and the open-source community for providing tools and frameworks that made this analysis possible.
+Special thanks to Bhupendra kumar sir and the creators of the Berlin V2X dataset and the open-source community , kaggle for providing tools , resources  and frameworks that made this analysis possible.
 
 ---
