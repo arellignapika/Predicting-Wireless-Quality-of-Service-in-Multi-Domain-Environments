@@ -24,10 +24,10 @@ This project focuses on predicting wireless Quality of Service (QoS) metrics suc
 
 #### Visualization:
 - **Feature Distribution Before Scaling**:
-  ![Feature Distribution Before Scaling](images/missing values train.png)
+  ![Feature Distribution Before Scaling](images/missingvalues_train.png)
 
 - **Feature Distribution After Scaling**:
-  ![Feature Distribution After Scaling](images/missing values test.png)
+  ![Feature Distribution After Scaling](images/missingvalues_test.png)
 
 ---
 
@@ -38,11 +38,12 @@ This project focuses on predicting wireless Quality of Service (QoS) metrics suc
 - **Feature Importance**: Identified significant features influencing QoS metrics.
 
 #### Visualizations:
-- **Correlation Heatmap**:
-  ![Correlation Heatmap](results/correlation_heatmap.png)
-
-- **Feature Importance**:
-  ![Feature Importance](results/feature_importance.png)
+- **Correlation Heatmaps**:
+  ![Correlation Heatmap](images/ot1.png)
+   ![Correlation Heatmap](images/ot2.png)
+   ![Correlation Heatmap](images/ot3.png)
+   ![Correlation Heatmap](images/ot4.png)
+  
 
 ---
 
@@ -64,7 +65,7 @@ This project focuses on predicting wireless Quality of Service (QoS) metrics suc
 
 #### Visualizations:
 - **Model Performance**:
-  ![Model Performance](results/model_performance.png)
+
 
 ---
 
@@ -75,11 +76,9 @@ This project focuses on predicting wireless Quality of Service (QoS) metrics suc
 - Used scatter plots and residual analysis for detailed assessment.
 
 #### Results:
-- **Predicted vs Actual Values**:
-  ![Predicted vs Actual](results/predicted_vs_actual.png)
+- **Feature Importance**:
+  ![Feature Importance](images/final.png)
 
-- **Residual Analysis**:
-  ![Residual Analysis](results/residual_analysis.png)
 
 ---
 
@@ -96,9 +95,7 @@ This project demonstrates the effectiveness of CatBoost Regressor in predicting 
 ---
 
 ## Future Work
-- Expand the dataset to include more multi-domain scenarios.
-- Experiment with additional hyperparameter tuning for CatBoost.
-- Integrate real-time prediction systems for practical applications.
+
 
 ---
 
