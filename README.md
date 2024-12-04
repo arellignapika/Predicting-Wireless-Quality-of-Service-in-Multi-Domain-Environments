@@ -24,10 +24,10 @@ This project focuses on predicting wireless Quality of Service (QoS) metrics suc
 
 #### Visualization:
 - **Feature Distribution Before Scaling**:
-  ![Feature Distribution Before Scaling](results/feature_distribution_before_scaling.png)
+  ![Feature Distribution Before Scaling](images/missing values train.png)
 
 - **Feature Distribution After Scaling**:
-  ![Feature Distribution After Scaling](results/feature_distribution_after_scaling.png)
+  ![Feature Distribution After Scaling](images/missing values test.png)
 
 ---
 
