@@ -84,6 +84,33 @@ This project focuses on predicting wireless Quality of Service (QoS) metrics suc
 | **Average RMSE** | **TT_1** | **9,064,600.705** | **-**               |
 
 
+## Explanation of Merging Predictions with Targets for Analysis
+
+The predictions were merged with actual target values from various datasets to create ensemble predictions for model analysis.
+
+### Process Overview
+
+The methodology involves:
+- **Merging Predictions with Targets**: Combining the model predictions with corresponding target values from multiple datasets to build a complete dataset for evaluation.
+- **Evaluating the Baseline Model**: Running the baseline model on different datasets to predict target values and assess model performance.
+- **Generating Ensemble Predictions**: Averaging the predictions from all datasets to create a final ensemble prediction.
+
+### Step-by-Step Explanation
+
+#### 1. Merging Predictions with Target Values
+Predictions from the baseline model were generated for each dataset (e.g., TT, TT_1, and TT_2). These predictions were merged with the actual target values from the respective datasets to create comprehensive data tables. This merging facilitates a direct comparison between the predicted values and the actual targets, aiding in evaluation and further analysis.
+
+#### 2. Evaluating the Baseline Model
+The baseline model was applied to each dataset using KFold cross-validation to split the data into training and test sets. This method helps in evaluating the model's performance across different data partitions, ensuring a robust estimation of its predictive power.
+
+#### 3. Creating Ensemble Predictions
+Predictions from each dataset were combined to form an ensemble prediction. This was done by averaging the predictions across all datasets, which helps to mitigate variability and enhance the overall prediction stability.
+
+#### 4. Generating a Final Output
+The ensemble predictions were compiled into a final DataFrame that included an `id` column for identification and a `target` column for the predicted values. This dataset was then exported as a CSV file for further analysis, review, or submission.
+
+### Baseline Model Performance Analysis
+The baseline model's performance was measured for each dataset by calculating evaluation metrics such as the cross-validated Root Mean Squared Error (CV-RMSE). These scores provide insight into the model's accuracy and how well it generalizes across different data splits.
 
 
 ---
