@@ -59,12 +59,31 @@ This project focuses on predicting wireless Quality of Service (QoS) metrics suc
   - Mean Absolute Error (MAE)
 
 #### Results:
-| Model                 | Dataset | RMSE   | MAE    |
-|-----------------------|---------|--------|--------|
-| CatBoost              | TT_1    | 2.98   | 2.34   |
+## Performance Table
 
-#### Visualizations:
-- **Model Performance**:
+### TT Dataset Performance
+
+| **Fold** | **Dataset** | **Best RMSE**       | **Best Iteration** |
+|----------|-------------|---------------------|---------------------|
+| Fold 1   | TT          | 9,352,584.717       | 927                 |
+| Fold 2   | TT          | 8,900,936.225       | 1,057               |
+| Fold 3   | TT          | 9,062,812.230       | 959                 |
+| Fold 4   | TT          | 8,943,788.723       | 1,071               |
+| Fold 5   | TT          | 8,741,932.182       | 765                 |
+| **Average RMSE** | **TT** | **9,000,410.815**   | **-**               |
+
+### TT_1 Dataset Performance
+
+| **Fold** | **Dataset** | **Best RMSE**       | **Best Iteration** |
+|----------|-------------|---------------------|---------------------|
+| Fold 1   | TT_1        | 8,917,765.610       | 705                 |
+| Fold 2   | TT_1        | 9,366,466.339       | 623                 |
+| Fold 3   | TT_1        | 8,988,736.834       | 1,152               |
+| Fold 4   | TT_1        | 9,235,183.579       | 823                 |
+| Fold 5   | TT_1        | 8,814,851.163       | 1,113               |
+| **Average RMSE** | **TT_1** | **9,064,600.705** | **-**               |
+
+
 
 
 ---
