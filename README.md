@@ -138,7 +138,7 @@ The baseline model's performance was measured for each dataset by calculating ev
 ## Conclusion
 This project demonstrates the effectiveness of CatBoost Regressor in predicting QoS metrics in multi-domain environments. By leveraging the Berlin V2X dataset, significant insights were derived into the factors affecting wireless QoS, paving the way for enhanced network optimization strategies.
 
-report : https://www.overleaf.com/read/vsrqkfyqyjbm#d23bc7
+
 ---
 
 ## Future Work
